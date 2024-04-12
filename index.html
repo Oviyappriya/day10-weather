@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="/index.css">
+    <script src="./index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div>
+        <h1 id="heading">Weather checker</h1>
+        </br>
+        <input type="text" placeholder="Enter the city...." id="city-input">
+        </br>
+        <input type="button" onclick="searchCity()"value="Search">
+        </div>
+        <div class="result">
+            <h2 id="city-name">---------</h2>
+            <div>
+                <h1 id="weather-type">-------</h1>
+                <div>
+                    <h3>Temp: <span id="temp"></span><span></span><sup>0</sup></span></h3>
+                    <h3>Min Temp: <span id="min-temp"></span><span></span><sup>0</sup></span></h3>
+                    <h3>Max Temp: <span id="max-temp"></span><span><sup>0</sup></span></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
